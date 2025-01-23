@@ -1,0 +1,18 @@
+ID: 999
+Número de série: 999
+Nome do patrimônio: 999
+Tipo: 999
+Descrição: 999
+Localização: 999
+Data de fabricação: 999
+Data de aquisição: 999
+-------------------------------------------
+ID: 999
+Número de série: 999
+Nome do patrimônio: 999
+Tipo: 999
+Descrição: 999
+Localização: 999
+Data de fabricação: 999
+Data de aquisição: 999
+-------------------------------------------
