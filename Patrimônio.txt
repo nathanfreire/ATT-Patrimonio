@@ -1,18 +1,53 @@
+
 ID: 999
-N�mero de s�rie: 999
-Nome do patrim�nio: 999
+Número de série: 999
+Nome do patrimônio: 999
 Tipo: 999
-Descri��o: 999
-Localiza��o: 999
-Data de fabrica��o: 999
-Data de aquisi��o: 999
+Descrição: 999
+Localização: 999
+Data de fabricação: 999
+Data de aquisição: 999
 -------------------------------------------
-ID: 999
-N�mero de s�rie: 999
-Nome do patrim�nio: 999
-Tipo: 999
-Descri��o: 999
-Localiza��o: 999
-Data de fabrica��o: 999
-Data de aquisi��o: 999
+ID: 22
+Empresa do Patrimônio: 22
+Logradouro do Patrimônio: 22
+Número do Patrimônio: 22
+Prédio do Patrimônio: 22
+Andar do Patrimônio: 22
+Sala do Patrimônio: 22
+-------------------------------------------
+ID: 22
+Empresa do Patrimônio: 22
+Logradouro do Patrimônio: 22
+Número do Patrimônio: 22
+Prédio do Patrimônio: 22
+Andar do Patrimônio: 22
+Sala do Patrimônio: 22
+-------------------------------------------
+ID: 
+Número de série: 
+Nome do patrimônio: 
+Tipo: 
+Descrição: 
+Localização: 
+Data de fabricação: 
+Data de aquisição: 
+-------------------------------------------
+ID: 
+Número de série: 
+Nome do patrimônio: 
+Tipo: 
+Descrição: 
+Localização: 
+Data de fabricação: 
+Data de aquisição: 
+-------------------------------------------
+ID: 
+Número de série: 
+Nome do patrimônio: 
+Tipo: 
+Descrição: 
+Localização: 
+Data de fabricação: 
+Data de aquisição: 
 -------------------------------------------
