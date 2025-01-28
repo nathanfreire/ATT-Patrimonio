@@ -125,19 +125,22 @@ class Patrimonio(QWidget):
         self.setLayout(self.layout_v)
 
     def cadastrar(self):
-        # Vamos criar uma variável que fara referencia ao um arquivo de texto
-        arquivo = open("Patrimônio.txt","+a", encoding="utf8")
-        arquivo.write(f"ID: {self.edit_id.text()}\n")
-        arquivo.write(f"Número de série: {self.edit_numero.text()}\n")
-        arquivo.write(f"Nome do patrimônio: {self.edit_nome_patrimonio.text()}\n")
-        arquivo.write(f"Tipo: {self.edit_tipo.text()}\n")
-        arquivo.write(f"Descrição: {self.edit_descricao.text()}\n")
-        arquivo.write(f"Localização: {self.edit_local.text()}\n")
-        arquivo.write(f"Data de fabricação: {self.edit_frabricacao.text()}\n")
-        arquivo.write(f"Data de aquisição: {self.edit_aquisicao.text()}\n")
-        arquivo.write("-------------------------------------------\n")
-        arquivo.close()
-        QMessageBox.information(self, "Salvo", "Os dados do patrimônio foram salvos")
+        if(self.edit_id.text()=="" or self.edit_numero.text()=="" or self.edit_nome_patrimonio.text()=="" or self.edit_tipo.text()=="" or self.edit_descricao.text()=="" or self.edit_frabricacao.text()=="" or self.edit_aquisicao.text()==""):
+            QMessageBox.critical(self, "Erro", "Você deve preencher todos os campos")
+        else:
+            # Vamos criar uma variável que fara referencia ao um arquivo de texto
+            arquivo = open("Patrimônio.txt","+a", encoding="utf8")
+            arquivo.write(f"ID: {self.edit_id.text()}\n")
+            arquivo.write(f"Número de série: {self.edit_numero.text()}\n")
+            arquivo.write(f"Nome do patrimônio: {self.edit_nome_patrimonio.text()}\n")
+            arquivo.write(f"Tipo: {self.edit_tipo.text()}\n")
+            arquivo.write(f"Descrição: {self.edit_descricao.text()}\n")
+            arquivo.write(f"Localização: {self.edit_local.text()}\n")
+            arquivo.write(f"Data de fabricação: {self.edit_frabricacao.text()}\n")
+            arquivo.write(f"Data de aquisição: {self.edit_aquisicao.text()}\n")
+            arquivo.write("-------------------------------------------\n")
+            arquivo.close()
+            QMessageBox.information(self, "Salvo", "Os dados do patrimônio foram salvos")
 
 
 #app = QApplication(sys.argv)
