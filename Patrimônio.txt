@@ -51,3 +51,12 @@ Localização:
 Data de fabricação: 
 Data de aquisição: 
 -------------------------------------------
+ID: 22
+Número de série: 22
+Nome do patrimônio: 22
+Tipo: 22
+Descrição: 22
+Localização: 22
+Data de fabricação: 22
+Data de aquisição: 22
+-------------------------------------------
